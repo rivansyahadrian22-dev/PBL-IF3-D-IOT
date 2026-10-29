@@ -1,0 +1,12 @@
+Cadangan kode admin SEBELUM menu digabung (9 menu terpisah).
+
+Isi:
+  admin-sebelum-gabung/views/admin       -> resources/views/admin
+  admin-sebelum-gabung/components/admin  -> resources/views/components/admin
+  admin-sebelum-gabung/js/admin          -> resources/js/admin
+  admin-sebelum-gabung/routes/admin.php  -> routes/admin.php
+  admin-sebelum-gabung/Support/*.php     -> app/Support/Admin
+
+Untuk mengembalikan: minta Claude "kembalikan admin seperti semula", atau salin folder-folder di atas
+ke lokasi tujuannya lalu jalankan: npm run build && php artisan view:clear
+Folder "cadangan" ini aman dihapus kalau hasil penggabungan sudah cocok.

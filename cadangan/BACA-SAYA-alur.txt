@@ -1,0 +1,12 @@
+Cadangan kode admin SEBELUM "langkah penghubung alur" (diterima -> bekerja, dokumen verifikasi,
+jadwal wawancara & JBI, pilih pelamar dari pencari terverifikasi).
+Kondisi ini = menu sudah digabung (7 menu), tapi alur belum dihubungkan.
+
+  admin-sebelum-alur/views/admin       -> resources/views/admin
+  admin-sebelum-alur/components/admin  -> resources/views/components/admin
+  admin-sebelum-alur/js/admin          -> resources/js/admin
+  admin-sebelum-alur/routes/admin.php  -> routes/admin.php
+  admin-sebelum-alur/Support/*.php     -> app/Support/Admin
+
+Untuk mengembalikan: minta Claude "kembalikan admin ke sebelum langkah penghubung alur".
+(Cadangan lama di admin-sebelum-gabung/ = sebelum menu digabung.)
